@@ -10,4 +10,4 @@ function toUpperCase() {
 }
 
 // Add an event listener to the input element to trigger the function
-document.getElementById("fname").addEventListener("input", toUpperCase);
+document.getElementById("fname").addEventListener("blur", toUpperCase);
